@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/TruyenDichChonLoc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+    
+    <title>Đọc Truyện Online Hay Và Mới Nhất - Dtruyen.net (Webtruyen.com)</title>
+</head>
+<body >
+    <header>
+        <ul>
+            <li><a href=""><img style="width: 45px; margin-left:10px;margin-top: 7px;margin-bottom: 3px;" src="image/icon_truyen.png" alt=""></a></li>
+            <li><a style="font-size: 20px;" title="Doc Truyen Online" href="Face.html">Doc Truyen Online</a></li>
+            <li class="table-parent">
+                <a href="#"><i class="fa-solid fa-tags"></i> Thể loại</a>
+                <div class="table-type">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Tiên Hiệp"  href="TruyenTienHiep.html">Tiên Hiệp</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện kiếm hiệp"  href="TruyenKiemHiep.html">Kiếm Hiệp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện ngôn tình" href="TruyenNgonTinh.html">Ngôn Tình</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Teen" href="TruyenTeen.html">Truyện Teen</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện đô thị" href="TruyenDoThi.html">Đô Thị</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện quân sự" href="TruyenQuanSu.html">Quân Sự</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện lịch sử" href="TruyenLichSu.html">Lịch Sử</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện xuyên không" href="TruyenXuyenKhong.html">Xuyên Không</a></li></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </li>
+            <li class="table-parent">
+                <a href=""><i class="fa-sharp fa-solid fa-list-ul"></i> Sắp xếp</a>
+                <div class="table-type">
+                    <table>
+                        <tr>
+                            <td style="color: red;"><i class="fa-solid fa-gem"></i><li><a title="Truyện Dịch" style="color: red;" href="TruyenDichChonLoc.html">Truyện Dịch</a></li></td>
+                            <td><i class="fa-solid fa-arrows-rotate"></i><li><a href="TruyenMoiCapNhat.html">Mới Cập Nhật</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-cloud-arrow-up"></i><li><a title="Truyện mới đăng" href="TruyenMoiDang.html">Mới Đăng</a></li></td>
+                            <td><i class="fa-regular fa-eye"></i><li><a title="Truyện đọc nhiều" href="TruyenXemNhieu.html">Xem Nhiều</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-regular fa-thumbs-up"></i><li><a title="Truyện được yêu thích" href="TruyenYeuThich.html">Yêu Thích</a></li></td>
+                            <td><i class="fa-solid fa-signal"></i><li><a title="Truyện full" href="TruyenFull.html">Truyện Full</a></li></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: red; text-align: center; vertical-align: middle;"><i class="fa-solid fa-star"></i><li><a title="Truyện sáng tác" style="color: red;" href="">Thành Viên Sáng Tác</a></li></td>
+                        </tr>
+                    </table>
+                </div>
+            </li>            
+            <li><a title="Đăng Truyện" href="Dang-Truyen.html"><i class="fa-solid fa-cloud-arrow-up"></i> Đăng truyện</a></li>
+           <li><input type="searchS" placeholder="Tìm truyện, tác  giả..."><i style="color: black;" class="fas fa-search"></i></li>
+           <li><a id="memberButton" title="Đăng Nhập" href="#"><i class="fa-solid fa-user"></i>  Thành viên</a></li>
+        </ul>
+    </header>  
+    <div class="login-container" id="loginContainer" style="display: none;">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>ĐĂNG NHẬP</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <form>
+                <div class="input-container">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Ghi nhớ mật khẩu</label>
+                </div>
+                <button type="submit" class="login-btn"><a href="">Đăng Nhập</a></button>
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </form>
+            <div class="social-login">
+                <button class="facebook-btn"><a href="">Đăng nhập Facebook</a></button>
+                <button class="google-btn"><i class="fa-brands fa-google"></i><a href="">Đăng nhập</a></button>
+            </div>
+            <div class="social-login">
+                <button class="zalo-btn"><a href="">Đăng nhập với Zalo</a></button>
+            </div>
+            <div class="info-box">
+                <p>Dtruyen.com đổi sang Dtruyen.net, các tài khoản và thông tin vẫn dùng thông tin cũ để đăng nhập.</p>
+            </div>
+            <div class="login">
+                <p>Chưa có tài khoản? <a href="#">Đăng Ký</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/Thanh_vien.js"></script>
+    <section class="content">
+        <div id="full-slider">
+            <div class="containerhuy">
+                <div class="breadcrumb">
+                    <i class="fa-solid fa-house"></i><a href="Face.html">Trang Chủ  </a><i class="fa-solid fa-angle-right"></i><a href="#">  Truyện Mới Đăng</a>
+                </div>
+                <div class="boxhuy">
+                    <li class="headBox"><p style="font-size: 18px; color: #2f52b2 ;" href="" title=""><b>TRUYỆN MỚI ĐĂNG</b></p></li>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/trovethapnien80nguoivongotngaogiausangphuquyT5GgHLY.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Trở Về Thập Niên 80: Người Vợ Ngọt Ngào Giàu Sang Phú Quý!</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 50
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Sướng Nhiên</span>
+                                </div>
+                                <div class="col status">
+                                    <p>1 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/xuyenthanhlaothaibamangkhonggiannuoichaugaisLSbXVE.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Xuyên Thành Lão Thái Bà Mang Không Gian Nuôi Cháu Gái</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 26
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Cốc Đông</span>
+                                </div>
+                                <div class="col status">
+                                    <p>1 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/begautrucxuyenkhongcuoiphulangTkoysZB.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Bé Gấu Trúc Xuyên Không Cưới Phu Lang</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Bạch Vân Thượng</span>
+                                </div>
+                                <div class="col status">
+                                    <p>2 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/matthenaydencungquadechiudixDVzLVB.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Mạt Thế Này Đến Cũng Quá Dễ Chịu Đi</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Tinh Linh Phục Hoạt</span>
+                                </div>
+                                <div class="col status">
+                                    <p>2 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/luuxuanlenhvnGhj8P.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Lưu Xuân Lệnh</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 10
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Tam Nhật Thành Tinh</span>
+                                </div>
+                                <div class="col status">
+                                    <p>2 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/cyberanhhungtruyencXmXmci.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Cyber Anh Hùng Truyện</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Ngô Đạo Trường Bất Cô</span>
+                                </div>
+                                <div class="col status">
+                                    <p>3 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/trovethapnien80nguoivongotngaogiausangphuquyT5GgHLY.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Trường Sinh Tu Tiên: Từ Vô Cùng Công Đức Bắt Đầu</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Mộc Hằng</span>
+                                </div>
+                                <div class="col status">
+                                    <p>3 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/aithiepdietthetrongsinhtatuhontranamgachovuonggiaDfkFQaN.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Ái Thiếp Diệt Thê, Trọng Sinh Ta Từ Hôn Tra Nam Gả Cho Vương Gia</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Chi Tri</span>
+                                </div>
+                                <div class="col status">
+                                    <p>3 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/xuyenthubattalamchumauphaohoitatreocanhcaokhacbS5hfec.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Xuyên Thư: Bắt Ta Làm Chủ Mẫu Pháo Hôi, Ta Liền Trèo Cành Cao Khác</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 6
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Tễ Vân</span>
+                                </div>
+                                <div class="col status">
+                                    <p>4 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/nhatoithongcodaikinhdoanhxuyenthoikhongsieukiemloiAVLVDmD.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Nhà Tôi Thông Cổ Đại! Kinh Doanh Xuyên Thời Không Siêu Kiếm Lời</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 7
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Gia Gia Nha</span>
+                                </div>
+                                <div class="col status">
+                                    <p>5 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/khoangcachtinhyeuhtd7s1uKcr.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Khoảng Cách Tình Yêu (Htd)</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+    
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Hoa Thược Dược</span>
+                                </div>
+                                <div class="col status">
+                                    <p>5 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/docsungkieuphiweSnQbahhH.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Độc Sủng Kiều Phi</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 20
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Phương Tiểu Khả</span>
+                                </div>
+                                <div class="col status">
+                                    <p>6 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/saukhixuyenthanhnhahoantamcotaombacchaytronUJ6V8gQ.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Sau Khi Xuyên Thành Nha Hoàn Tâm Cơ Ta Ôm Bạc Chạy Trốn
+                                    </a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Diêm Kết</span>
+                                </div>
+                                <div class="col status">
+                                    <p>7 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/dammyphuccuakengocXySiAQhHFX.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">[Đam Mỹ] Phúc Của Kẻ Ngốc</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 20
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Cá Đầu Xám</span>
+                                </div>
+                                <div class="col status">
+                                    <p>7 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/tamnghienS29YGJ3.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Tâm Nghiện</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Hoa Duệ</span>
+                                </div>
+                                <div class="col status">
+                                    <p>8 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/neucokiepsautaselammotluumanhbietdieu7uzWUuD.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Nếu Có Kiếp Sau Ta Sẽ Làm Một Lưu Manh Biết Điều</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 1
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Talagi</span>
+                                </div>
+                                <div class="col status">
+                                    <p>9 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/trongsinh90gachochucuanguoiyeucu94CogLn.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Trọng Sinh 90: Gả Cho Chú Của Người Yêu Cũ</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Hương Tiêu Bất Nột Ni</span>
+                                </div>
+                                <div class="col status">
+                                    <p>10 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/songlaigiuatanthebidaibosscuongyeusanduoiw6uxg73.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Sống Lại Giữa Tận Thế: Bị Đại Boss Cuồng Yêu Săn Đuổi</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 35
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Đường Hạt Tiểu Công Tử</span>
+                                </div>
+                                <div class="col status">
+                                    <p>10 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/xuyenden60tachimuonannhansinhhoatWygi5Jd.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Xuyên Đến 60: Ta Chỉ Muốn An Nhàn Sinh Hoạt</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 265
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Tiểu Thuyết Mê Tả Tiểu Thuyết</span>
+                                </div>
+                                <div class="col status">
+                                    <p>11 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/toitrothanhdailaoogioihuyenhocNQAx4S2.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Tôi Làm Boss Tại Giới Huyền Học</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Thời Hòe Tự</span>
+                                </div>
+                                <div class="col status">
+                                    <p>11 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/cuongsungcovotoannang6TX7jnehnp.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Cuồng Sủng Cô Vợ Toàn Năng</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 20
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Phi Linh</span>
+                                </div>
+                                <div class="col status">
+                                    <p>13 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/saukhixuyenthanhnguoiquaduongyeumenhxCZqJCITmG.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Sau Khi Xuyên Thành Người Qua Đường Yểu Mệnh</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 20
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> MaikaFS</span>
+                                </div>
+                                <div class="col status">
+                                    <p>15 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/trungsinhsuthamtinhcuangontongAkbjEBtHFy.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">[Trùng Sinh] Sự Thâm Tình Của Ngôn Tổng</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 20
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Tg Nguyễn Nguyễn</span>
+                                </div>
+                                <div class="col status">
+                                    <p>15 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/docythaituphikhongmuonlam4oDYVDZP8l.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Độc Y Thái Tử Phi Không Muốn Làm</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Hoa Ly Ly 1350</span>
+                                </div>
+                                <div class="col status">
+                                    <p>15 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/phongnhapphuongteduongtien9zhow2X18Q.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Phong Nhập</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Phượng Tê Đường Tiền</span>
+                                </div>
+                                <div class="col status">
+                                    <p>1 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/cautaihongtrantruongsinhbattuz5P75VY.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Cẩu Tại Hồng Trần Trường Sinh Bất Tử</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 5
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Chư Dê Hoàng Hôn</span>
+                                </div>
+                                <div class="col status">
+                                    <p>17 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/daogoctuongaphiaTN5ncFdapv.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Đào Góc Tường</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> A Phì A</span>
+                                </div>
+                                <div class="col status">
+                                    <p>20 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/vannguoighetcaukhonglamnuataysonngug261nql5p7.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Vạn Người Ghét Cậu Không Làm Nữa</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Tây Sơn Ngư</span>
+                                </div>
+                                <div class="col status">
+                                    <p>21 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/chiyeuriengminhemdatusanFtufXAeDPY.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Chỉ Yêu Riêng Mình Em</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Dạ Tử Sân</span>
+                                </div>
+                                <div class="col status">
+                                    <p>25 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/gioluaquaketaygioluaquaketay7d1KCs9GL8.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Gió Lùa Qua Kẽ Tay</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full 
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>lonely god</span>
+                                </div>
+                                <div class="col status">
+                                    <p>26 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/thaplucnuongduZzfnRTn2.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Thập Lục Nương</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Full 
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Minh Nguyệt Điều Điều</span>
+                                </div>
+                                <div class="col status">
+                                    <p>27 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/nieunieunhatcoBncjmVUqVK.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Niệu Niệu Nhất Cố</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                    <span class="story-label2">FULL</span>
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>FULL
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Giang Sơn</span>
+                                </div>
+                                <div class="col status">
+                                    <p>30 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/thapnien80taihonnuoiconhanhphuchangngayXa85FMv.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Thập Niên 80: Tái Hôn Nuôi Con Hạnh Phúc Hàng Ngày</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 429
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Thất Nguyệt Điền</span>
+                                </div>
+                                <div class="col status">
+                                    <p>31 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenthuy">
+                        <div class="left-column">
+                            <img src="image/ImageMoiDang/bitoanmangtaychayphaigiainghechuyensangthicongchuclainoibaoVLjmSZm.jpg" alt="Hình ảnh">
+                        </div>
+                        <div class="right-column">
+                            <div class="row">
+                                <div class="col title">
+                                    <a style="color: rgb(68, 68, 68);font-weight: bold;" href="" title="">Bị Toàn Mạng Tẩy Chay Phải Giải Nghệ, Chuyển Sang Thi Công Chức Lại Nổi Bạo!</a>
+                                    
+                                    <span class="story-label">DỊCH</span>
+                                  
+                                    
+                                </div>
+                                <div class="col status">
+                                    <p>Chương 1470
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col title">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> Sóc Sương</span>
+                                </div>
+                                <div class="col status">
+                                    <p>35 phút trước</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+    
+                      
+                        <div class="mucluc">
+                            <a href="#">&laquo;</a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">...</a>
+                            <a href="#">31</a>
+                            <a href="#">&raquo;</a>
+                          </div>    
+                       
+               
+                
+                
+    
+                </div>
+            </div>
+            
+        </div>
+        <div id="right">
+            <div class="right1">
+                <li><p style="font-size: 18px; color: #2f52b2 ;" href="" title=""><b>THỂ LOẠI TRUYỆN</b></p></li>
+                <hr>
+                <div class="table2-type">
+                    <table class="the-loai">
+                        <tr>
+                            <td><i class="fa-solid fa-gem"></i><li><a title="Tiên Hiệp"  href="TruyenTienHiep.html">Tiên Hiệp</a></li></td>
+                            <td><i class="fa-solid fa-gem"></i><li><a title="Kiếm Hiệp"  href="TruyenKiemHiep.html">Kiếm Hiệp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-gem"></i><li><a class="red2" title="Truyện Teen" href="TruyenTeen.html">Truyện Teen</a></li></td>
+                            <td><i class="fa-solid fa-gem"></i><li><a class="red2" title="Ngôn Tình" href="TruyenNgonTinh.html">Ngôn Tình</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Điền Văn" href="">Điền Văn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Thám Hiểm" href="">Thám Hiểm</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Linh Dị" href="">Linh Dị</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Ngược" href="">Truyện Ngược</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Sủng" href="">Truyện Sủng</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Cung Đấu" href="">Cung Đấu</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Nữ Cường" href="">Nữ Cường</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Gia Đấu" href="">Gia Đấu</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đông Phương" href="">Đông Phương</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Bách Hợp" href="">Bách Hợp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hài Hước" href="">Hài Hước</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đồng Nhân" href="">Đồng Nhân</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hiện Đại" href="">Hiện Đại</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Sách" href="">Xuyên Sách</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Cổ Đại"  href="">Cổ Đại</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Mạt Thế"  href="">Mạt Thế</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Phương Tây" href="">Phương Tây</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Nữ Phụ" href="">Nữ Phụ</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Light Novel" href="">Light Novel</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Việt Nam" href="">Việt Nam</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đoản Văn" href="">Đoản Văn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Không" href="TruyenXuyenKhong.html">Xuyên Không</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Sắc" href="">Truyện Sắc</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đô Thị" href="TruyenDoThi.html">Đô Thị</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Khác" href="">Truyện Khác</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Lịch Sử" href="TruyenLichSu.html">Lịch Sử</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Khoa Học" href="">Khoa Học</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Quân Sự" href="TruyenQuanSu.html">Quân Sự</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Võng Du" href="">Võng Du</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Dị Giới" href="">Dị Giới</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Huyền Huyễn" href="">Huyền Huyễn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Khoa Huyễn" href="">Khoa Huyễn</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Trọng Sinh" href="">Trọng Sinh</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="TTruyện Ma" href="">Truyện Ma</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Trinh Thám" href="">Truyện Trinh Thám</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Ngắn" href="TruyenNgan.html">Truyện Ngắn</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Cười" href="">Truyện Cười</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Tiểu Thuyết" href="">Tiểu Thuyết</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hệ Thống" href="">Hệ Thống</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đam Mỹ" href="">Đam Mỹ</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Quan Trường" href="">Quan Trường</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Nhanh" href="">Xuyên Nhanh</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Dị Năng" href="">Dị Năng</a></li></td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right2">
+                <div class="review">
+                    <li><a style="font-size: 18px; color: #016eb2 ;" title="REVIEW TRUYỆN" href="Review.html"><b>REVIEW TRUYỆN </b><i class="fa-solid fa-angle-right"></i></a></li>
+                    <hr>
+                    <li> <img src="image/hinh7.jpg" alt=""><a title="Top truyện xuyên không được đề cử tháng 8-2021" href="">Top truyện xuyên không được đề cử tháng 8-2021</a></li>
+                    <li><img src="image/hinh8.jpg" alt=""><a title="Top truyện xuyên không hay nhất mọi thời đại" href="">Top truyện xuyên không hay nhất mọi thời đại</a></li>
+                    <li><img src="image/hinh9.jpg" alt=""><a title="Top truyện trọng sinh hay nhất nửa đầu năm 2021" href="">Top truyện trọng sinh hay nhất nửa đầu năm 2021</a></li>
+                    <li><img src="image/hinh10.jpg" alt=""><a title="Top truyện tiên hiệp hay nhất dành cho fan nam 2021" href="">Top truyện tiên hiệp hay nhất dành cho fan nam 2021</a></li>
+                    <li><img src="image/hinh11.jpg" alt=""><a title="Top truyện sinh tồn hay nhất mọi thời đại" href="">Top truyện sinh tồn hay nhất mọi thời đại</a></li>
+                    <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                </div>
+            </div>
+            <div class="right3">
+                <div class="top-truyen">
+                  <ul>
+                      <li><a style="font-size: 18px; color: #016eb2 ;" title="TOP TRUYỆN HAY" href="TruyenXemNhieu.html"><b>TOP TRUYỆN HAY </b><i class="fa-solid fa-angle-right"></i></a></li>
+                      <li>
+                          <span class="rank">01</span>
+                          <div class="info">
+                          <a title="Ngạo Thế Đan Thần" href="#" class="title">Ngạo Thế Đan Thần</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 297,975,402</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">02</span>
+                          <div class="info">
+                          <a title="Con Đường Bá Chủ" href="#" class="title">Con Đường Bá Chủ</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 124,920,010</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">03</span>
+                          <div class="info">
+                          <a title="Thần Đạo Đan Tôn" href="#" class="title">Thần Đạo Đan Tôn</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 122,904,371</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">04</span>
+                          <div class="info">
+                          <a title="Linh Vũ Thiên Hạ" href="#" class="title">Linh Vũ Thiên Hạ</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 103,354,446</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">05</span>
+                          <div class="info">
+                          <a title="Kiếm Đạo Độc Tôn" href="#" class="title">Kiếm Đạo Độc Tôn</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 92,462,894</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">06</span>
+                          <div class="info">
+                          <a title="Độc Y Thần Nữ: Phúc Hắc Lãnh Đế Cuồng Sũng" href="#" class="title">Độc Y Thần Nữ: Phúc Hắc Lãnh Đế Cuồng Sũng</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 77,154,112</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">07</span>
+                          <div class="info">
+                          <a title="Hôn Trộm 55 Lần" href="#" class="title">Hôn Trộm 55 Lần</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 61,779,532</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">08</span>
+                          <div class="info">
+                          <a title="Tuyệt Sắc Đan Dược Sư: Quỷ Vương Yêu Phi" href="#" class="title">Tuyệt Sắc Đan Dược Sư: Quỷ Vương Yêu Phi</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 59,076,656</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">09</span>
+                          <div class="info">
+                          <a title="Ép Yêu 100 Ngày" href="#" class="title">Ép Yêu 100 Ngày</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 57,455,418</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">10</span>
+                          <div class="info">
+                          <a title="Côn Luân Ma Chủ" href="#" class="title">Côn Luân Ma Chủ</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 55,941,950</span>
+                          </div>
+                      </li>
+                      <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="right4">
+                <div class="top-truyen">
+                    <ul>
+                        <li><a style="font-size: 18px; color: #016eb2 ;" title="TRUYỆN MỚI ĐĂNG" href="TruyenMoiDang.html"><b>TRUYỆN MỚI ĐĂNG </b><i class="fa-solid fa-angle-right"></i></a></li>
+                        <li>
+                            <span class="rank">01</span>
+                            <div class="info">
+                            <a title="Đang Đăng Nhập: Chúa Tể Nhân Sinh" href="#" class="title">Đang Đăng Nhập: Chúa Tể Nhân Sinh</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">02</span>
+                            <div class="info">
+                            <a title="Ôn Nhu Thịnh Sủng: Kỷ Tiên Sinh, Ngài Bị Phu Nhân Block Rồi!" href="#" class="title">Ôn Nhu Thịnh Sủng: Kỷ Tiên Sinh, Ngài Bị Phu Nhân Block Rồi!</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">03</span>
+                            <div class="info">
+                            <a title="Xuyên Sách: Sau Khi Nữ Chính Bái Nhầm Sư Tôn" href="#" class="title">Xuyên Sách: Sau Khi Nữ Chính Bái Nhầm Sư Tôn</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">04</span>
+                            <div class="info">
+                            <a title="Trọng Sinh Ngược Cặn Bã: Hoắc Phu Nhân Vừa Đẹp Vừa Ngầu" href="#" class="title">Trọng Sinh Ngược Cặn Bã: Hoắc Phu Nhân Vừa Đẹp Vừa Ngầu</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">05</span>
+                            <div class="info">
+                            <a title="Trọng Sinh Ngược Cặn Bã: Hoắc Phu Nhân Vừa Đẹp Vừa Ngầu" href="#" class="title">Kiếm Đạo Độc Tôn</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">06</span>
+                            <div class="info">
+                            <a title="Thập Niên 80: Trở Lại Năm 85, Tôi Trở Thành Chúa Tể Của Cuộc Đời Mình" href="#" class="title">Thập Niên 80: Trở Lại Năm 85, Tôi Trở Thành Chúa Tể Của Cuộc Đời Mình</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">07</span>
+                            <div class="info">
+                            <a title="Hôm Nay Chọc Tức Khang Hi Đến Chết Chưa" href="#" class="title">Hôm Nay Chọc Tức Khang Hi Đến Chết Chưa</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">08</span>
+                            <div class="info">
+                            <a title="Cẩm Nang Sinh Tồn Trong Thế Giới Quỷ Dị" href="#" class="title">Cẩm Nang Sinh Tồn Trong Thế Giới Quỷ Dị</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">09</span>
+                            <div class="info">
+                            <a title="Tôi Đều Đã Gặp Quỷ Rồi, Đạo Diễn Còn Khen Tôi Diễn Hay?" href="#" class="title">Tôi Đều Đã Gặp Quỷ Rồi, Đạo Diễn Còn Khen Tôi Diễn Hay?</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">10</span>
+                            <div class="info">
+                            <a title="Tôi Dựa Vào Skill Biến Phế Thành Bảo Một Đường Nằm Thắng" href="#" class="title">Tôi Dựa Vào Skill Biến Phế Thành Bảo Một Đường Nằm Thắng</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                    </ul>
+                </div>
+            </div>
+       
+        </div>
+    </section> 
+    <footer>
+        <div class="container-footer">
+            <div class="top-footer">
+                <h2>Top truyện nổi bật của tháng</h2>
+                <div class="top-links">
+                    <a title="" href="">diệp lạc vô tâm</a>
+                    <a title="" href="">hào môn kinh mộng</a>
+                    <a title="" href="">đấu la đại lục 2</a>
+                    <a title="" href="">đẹp trai là số 1</a>
+                    <a title="" href="">dam my</a>
+                    <a title="" href="">chồng tổng giám đốc sủng nhẹ một chút</a>
+                    <a title="" href="">đam mỹ hay</a>
+                    <a title="" href="">đep yeu 100</a>
+                    <a title="" href="">Vạn Cổ Thần Đế</a>
+                    <a title="" href="">toàn chức cao thủ</a>
+                </div>
+            </div>
+    
+            <div class="bottom-footer">
+                <div class="info-bottom-footer">
+                    <p>Website <a title="" href="">đọc truyện</a> online chất lượng hàng đầu việt nam, với nhiều 
+                    <a title="" href="">truyện tiên hiệp</a>, 
+                    <a title="" href="">truyện kiếm hiệp</a>,<br>
+                    <br>
+                    <a title="" href="">truyện ngôn tình</a>,
+                    <a title="" href="">truyện teen</a>, <a title="" href="">truyện đô thị</a>
+                    được tác giả và dịch giả chọn lọc và đăng tải. Truy cập<br> website nghĩa là bạn đã đồng ý với các quy định và điều khoản của chúng tôi. Vui lòng đọc kỹ các<br> thông tin liên quan ở phía dưới.</p>
+    
+                    <p class="copyright">Copyright 2021 <a title="" href="">DTruyen.Net</a></p>
+                </div>
+    
+                <div class="footer-links">
+                    <a title="" href="chinh-sach-bao-mat.html">Chính sách bảo mật</a> - 
+                    <a title="" href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a> - 
+                    <a title="" href="quy-dinh-ve-noi-dung.html">Quy định về nội dung</a> - 
+                    <a title="" href="van-de-ban-quyen.html">Vấn đề bản quyền</a> - 
+                    <a title="" href="thoa-thuan-quyen-rieng-tu.html">Thỏa<br> thuận quyền riêng tư</a>
+                </div>
+              
+                <p class="license">Website hoạt động dưới <a  href="GPTC.html">Giấy phép truy cập mở Creative Commons Attribution 4.0 International</a></p>
+                <p class="license"> <a href="GPTC.html">License.</a>.
+                
+                <div class="dmca">
+                    <a href="//www.dmca.com/Protection/Status.aspx?id=9e37f4ab-db0f-4a15-a997-52948db76716" title="DMCA.com Protection Status" class="dmca-badge">
+                        <img src="//images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=//www.dmca.com/Protection/Status.aspx?id=9e37f4ab-db0f-4a15-a997-52948db76716" alt="DMCA.com Protection Status">
+                    </a>
+                    <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                    <a href="https://creativecommons.org/licenses/by/4.0/" title="Second Logo">
+                        <img src="https://licensebuttons.net/l/by/3.0/80x15.png" alt="Second Logo" class="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>

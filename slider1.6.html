@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/slider1.css">
+    
+    <title>Quang Âm Chi Ngoại</title>
+</head>
+<body >
+    <header>
+        <ul>
+            <li><a href=""><img style="width: 45px; margin-left:10px;margin-top: 7px;margin-bottom: 3px;" src="image/icon_truyen.png" alt=""></a></li>
+            <li><a style="font-size: 20px;" title="Doc Truyen Online" href="Face.html">Doc Truyen Online</a></li>
+            <li class="table-parent">
+                <a href="#"><i class="fa-solid fa-tags"></i> Thể loại</a>
+                <div class="table-type">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Tiên Hiệp"  href="TruyenTienHiep.html">Tiên Hiệp</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện kiếm hiệp"  href="TruyenKiemHiep.html">Kiếm Hiệp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện ngôn tình" href="TruyenNgonTinh.html">Ngôn Tình</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Teen" href="TruyenTeen.html">Truyện Teen</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện đô thị" href="TruyenDoThi.html">Đô Thị</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện quân sự" href="TruyenQuanSu.html">Quân Sự</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện lịch sử" href="TruyenLichSu.html">Lịch Sử</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện xuyên không" href="TruyenXuyenKhong.html">Xuyên Không</a></li></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </li>
+            <li class="table-parent">
+                <a href=""><i class="fa-sharp fa-solid fa-list-ul"></i> Sắp xếp</a>
+                <div class="table-type">
+                    <table>
+                        <tr>
+                            <td style="color: red;"><i class="fa-solid fa-gem"></i><li><a title="Truyện Dịch" style="color: red;" href="TruyenDichChonLoc.html">Truyện Dịch</a></li></td>
+                            <td><i class="fa-solid fa-arrows-rotate"></i><li><a href="TruyenMoiCapNhat.html">Mới Cập Nhật</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-cloud-arrow-up"></i><li><a title="Truyện mới đăng" href="TruyenMoiDang.html">Mới Đăng</a></li></td>
+                            <td><i class="fa-regular fa-eye"></i><li><a title="Truyện đọc nhiều" href="TruyenXemNhieu.html">Xem Nhiều</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-regular fa-thumbs-up"></i><li><a title="Truyện được yêu thích" href="TruyenYeuThich.html">Yêu Thích</a></li></td>
+                            <td><i class="fa-solid fa-signal"></i><li><a title="Truyện full" href="TruyenFull.html">Truyện Full</a></li></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: red; text-align: center; vertical-align: middle;"><i class="fa-solid fa-star"></i><li><a title="Truyện sáng tác" style="color: red;" href="">Thành Viên Sáng Tác</a></li></td>
+                        </tr>
+                    </table>
+                </div>
+            </li>            
+            <li><a title="Đăng Truyện" href="Dang-Truyen.html"><i class="fa-solid fa-cloud-arrow-up"></i> Đăng truyện</a></li>
+           <li><input type="searchS" placeholder="Tìm truyện, tác  giả..."><i style="color: black;" class="fas fa-search"></i></li>
+           <li><a id="memberButton" title="Đăng Nhập" href="#"><i class="fa-solid fa-user"></i>  Thành viên</a></li>
+        </ul>
+    </header>
+    <div class="login-container" id="loginContainer" style="display: none;">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>ĐĂNG NHẬP</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <form>
+                <div class="input-container">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Ghi nhớ mật khẩu</label>
+                </div>
+                <button type="submit" class="login-btn"><a href="">Đăng Nhập</a></button>
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </form>
+            <div class="social-login">
+                <button class="facebook-btn"><a href="">Đăng nhập Facebook</a></button>
+                <button class="google-btn"><i class="fa-brands fa-google"></i><a href="">Đăng nhập</a></button>
+            </div>
+            <div class="social-login">
+                <button class="zalo-btn"><a href="">Đăng nhập với Zalo</a></button>
+            </div>
+            <div class="info-box">
+                <p>Dtruyen.com đổi sang Dtruyen.net, các tài khoản và thông tin vẫn dùng thông tin cũ để đăng nhập.</p>
+            </div>
+            <div class="login">
+                <p>Chưa có tài khoản? <a href="#">Đăng Ký</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/Thanh_vien.js"></script>
+    <section class="content">
+        <div id="full-slider">           
+            <div class="silder2">
+                <div class="breadcrumb">
+                    <i class="fa-solid fa-house"></i><a href="Face.html">Trang Chủ</a><i class="fa-solid fa-angle-right"></i><a href="#">Quang Âm Chi Ngoại</a>
+                </div>
+                <div class="container">
+                    <div class="left-column">
+                        <img src="image/hinh5.jpg" alt="Truyện Image" class="book-cover">
+                        <div class="author-info">
+                            <p><i class="fa fa-user"></i><a href=""> Nhĩ Căn</a></p>
+                            <p><i class="fa-solid fa-folder-open"></i><a href="">Tiên Hiệp</a></p>
+                            <p>Dịch giả: <a href="">  phuonglinh</a></p>
+                            <p><i class="fa fa-eye"></i>  2,336,400</p>
+                            <p><i class="fa fa-star"></i> Đang cập nhật</p>
+                            <p><i class="fa-solid fa-arrows-rotate"></i> 22:26:11 15/10/2024</p>
+                        </div>
+                    </div>
+            
+                    <div class="right-column">
+                        <h1>QUANG ÂM CHI NGOẠI</h1>
+                        <div class="star-rating">
+                            <div class="stars">
+                                <span class="star" data-value="1">&#9733;</span>
+                                <span class="star" data-value="2">&#9733;</span>
+                                <span class="star" data-value="3">&#9733;</span>
+                                <span class="star" data-value="4">&#9733;</span>
+                                <span class="star" data-value="5">&#9733;</span>
+                                <span class="star" data-value="6">&#9733;</span>
+                                <span class="star" data-value="7">&#9733;</span>
+                                <span class="star" data-value="8">&#9733;</span>
+                                <span class="star" data-value="9">&#9733;</span>
+                                <span class="star" data-value="10">&#9733;</span>
+                            </div>
+                            <div class="rating">
+                                <p class="rating-text">Đánh giá: <span id="rating-value">0</span>/10</p>
+                            </div>
+                        </div>
+                        
+                        <div class="buttons">
+                            <button class="chapter-list"><a href="">Danh sách chương</a></button>
+                            <button class="favorite"><a href="">Truyện Yêu Thích</a></button>
+                        </div>
+                        <div class="status">
+                            <button class="read-next"><i class="fa-solid fa-file"></i> Đọc Truyện</button>
+                        </div>
+                        <div class="summary">
+                            <p class="summary-text short">
+                                <p>Siêu phẩm Quang Âm Chi Ngoại của tác giả Nhĩ Căn.</p>
+                                <p>Thiên địa là vạn vật chúng sinh khách xá, quang âm là từ xưa tới nay khách qua đường.</p>
+                                <p>Tử sinh khác biệt, thật giống như mộng cùng tỉnh khác biệt, xôn xao biến hóa, không thể cật vấn.</p>
+                                <p>Như vậy siêu việt sinh tử, đã vượt ra thiên địa, tại quang âm bên ngoài , chờ đợi chúng ta là cái gì?</p>
+                                <span class="hidden-text">
+                                    <p>Đây là Nhĩ Căn kế « Tiên Nghịch » « Cầu Ma » « Ngã Dục Phong Thiên » « Nhất Niệm Vĩnh Hằng » « Tam Thốn Nhân Gian » sau, sáng tác bộ tiểu thuyết thứ sáu « Quang Âm Chi Ngoại »</p>
+                                    
+                                </span>
+                            </p>
+                            <a href="#" class="read-more">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider3">
+                <ul>
+                    <li><p style="font-size: 18px; color: #2f52b2 ;"><i class="fa-sharp fa-solid fa-list-ul"> </i><b>   5 CHƯƠNG MỚI NHẤT TRUYỆN QUANG ÂM CHI NGOẠI</b></p></li>
+                    <hr>
+                </ul>
+                <table class="table-slider3">
+                    <tr>
+                        <td><a href="" title="Chương 2440 - Thiếu Chủ chi uy (2)">Chương 2440 - Thiếu Chủ chi uy (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 2439 - Thiếu Chủ chi uy (1)">Chương 2439 - Thiếu Chủ chi uy (1)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 2438 - Không che giấu nữa, ngả bài (2)">Chương 2438 - Không che giấu nữa, ngả bài (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 2437 - Không che giấu nữa, ngả bài (1)">Chương 2437 - Không che giấu nữa, ngả bài (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 2436 - Một quân cờ đặt xuống, khai sinh toàn cục (2)">Chương 2436 - Một quân cờ đặt xuống, khai sinh toàn cục (2)</a></td>
+                    </tr>
+                </table>               
+            </div>
+            <div class="slider3">
+                <ul>
+                    <li><p style="font-size: 18px; color: #2f52b2 ;"><i class="fa-sharp fa-solid fa-list-ul"></i><b> DANH SÁCH CHƯƠNG TRUYỆN QUANG ÂM CHI NGOẠI</b></p></li>
+                    <hr>
+                </ul>
+                <table class="table-slider3">
+                    <tr>
+                        <td><a href="" title="Chương 1 - Còn sống (1)">Chương 1 - Còn sống (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 2 -  Còn sống (2)">Chương 2 -  Còn sống (2)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 3 -  Còn sống (3)">Chương 3 -  Còn sống (3)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 4 - Còn sống (4)">Chương 4 - Còn sống (4)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 5 - Dị chất (1)">Chương 5 - Dị chất (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 6 - Dị chất (2)">Chương 6 - Dị chất (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 7 - Chúc... An nghỉ (1)">Chương 7 - Chúc... An nghỉ (1)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 8 - Chúc... An nghỉ (2)">Chương 8 - Chúc... An nghỉ (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 9 - Khách không mời mà đến (1)">Chương 9 - Khách không mời mà đến (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 10 - Khách không mời mà đến (2)">Chương 10 - Khách không mời mà đến (2)"</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 11 - Khách không mời mà đến (3)">Chương 11 - Khách không mời mà đến (3)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 12 - Doanh địa của thập hoang giả (1)">Chương 12 - Doanh địa của thập hoang giả (1) </a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 13 - Doanh địa của thập hoang giả (2)">Chương 13 - Doanh địa của thập hoang giả (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 14 - Tiểu hài tử (1)">Chương 14 - Tiểu hài tử (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 15 - Tiểu hài tử (2)">Chương 15 - Tiểu hài tử (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 16 - Mời ngươi ăn (1)">Chương 16 - Mời ngươi ăn (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 17 - Mời ngươi ăn (2)">Chương 17 - Mời ngươi ăn (2)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 18 - Mời ngươi ăn (3)">Chương 18 - Mời ngươi ăn (3)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 19 - Ba bộ bát đũa (1)">Chương 19 - Ba bộ bát đũa (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 20 - Ba bộ bát đũa (2)">Chương 20 - Ba bộ bát đũa (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 21 - Hậu quả của uy hiếp (1)">Chương 21 - Hậu quả của uy hiếp (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 22 - Hậu quả của uy hiếp (2)">Chương 22 - Hậu quả của uy hiếp (2)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 23 - Hậu quả của uy hiếp (3)">Chương 23 - Hậu quả của uy hiếp (3)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 24 - Y phục mới (1)">Chương 24 - Y phục mới (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 25 - Y phục mới (2)">Chương 25 - Y phục mới (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 26 - Y phục mới (3)">Chương 26 - Y phục mới (3)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 27 - Tập kết (1)">Chương 27 - Tập kết (1)</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="" title="Chương 28 - Tập kết (2)">Chương 28 - Tập kết (2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 29 - Cấm kỵ của cấm khu (1)">Chương 29 - Cấm kỵ của cấm khu (1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" title="Chương 30 - Cấm kỵ của cấm khu (2)">Chương 30 - Cấm kỵ của cấm khu (2)</a></td>
+                    </tr>
+                </table>     
+                <div class="pagination">
+                    <ul class="pagination-ul">
+                        <li><a href="#" class="page-link">1</a></li>
+                        <li><a href="#" class="page-link">2</a></li>
+                        <li><a href="#" class="page-link">3</a></li>
+                        <li><a href="#" class="page-link">4</a></li>
+                        <li><a href="#" class="page-link">5</a></li>
+                        <li><span>...</span></li>
+                        <li><a href="#" class="page-link">34</a></li> 
+                        <li><i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                    <div class="go-to-page">
+                        <label for="page-number">Đi đến trang</label>
+                        <input type="number" id="page-number" min="1" max="34">
+                        <button type="button">Đi</button>
+                    </div>
+                </div>         
+                <script src="JS/slider1.js"></script> 
+            </div> 
+            <div class="comment-section">
+                <h3>
+                    <p style="font-size: 18px; color: #2f52b2;">
+                        <i class="fa-sharp fa-solid fa-list-ul"></i>
+                        <b>NHẬN XÉT CỦA ĐỘC GIẢ VỀ TRUYỆN QUANG ÂM CHI NGOẠI</b>
+                    </p>
+                </h3>
+                
+                <textarea id="comment-box" placeholder="Nội dung bình luận tối thiểu 15 ký tự, tối đa 500 ký tự!"></textarea>
+                <p class="char-count">Số ký tự: <span id="char-count" style="color: #ea4c3c;">0</span></p>
+                <button type="submit"><i class="fa-sharp fa-solid fa-paper-plane"></i> Gửi</button>
+            
+                <div class="comments">
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">B</div>
+                            <div class="user-name">Bophatdat</div>
+                            <div class="date">4/10/2024</div>
+                        </div>
+                        <div class="content">Được 2 ngày liên tục lại chết 4 ngày</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.1</p>
+                        </div>
+                    </div>
+            
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">QH</div>
+                            <div class="user-name">Vũ Quốc Hưng</div>
+                            <div class="date">28/9/2024</div>
+                        </div>
+                        <div class="content">Đọc đến 2402</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>            
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">D</div>
+                            <div class="user-name">Dauludu</div>
+                            <div class="date">27/9/2024</div>
+                        </div>
+                        <div class="content">Lão Nhĩ lại bị trĩ hay sao</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment comment-admin">
+                        <div class="user-info">
+                            <div class="avatar admin">L</div>
+                            <div class="user-name">Leminh</div>
+                            <div class="date">26/5/2024</div>
+                        </div>
+                        <div class="content">Hắn viết truyện kiếm dc bộn tiền, giờ lại sống lay lắt, tiền ko tiêu được, ăn uống kiêng cữ, giàu cũng như không, kaka</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">B</div>
+                            <div class="user-name">Bophatdat</div>
+                            <div class="date">24/5/2024</div>
+                        </div>
+                        <div class="content">Mẹ trước thì 1 ngày 2 c giờ thì 2 ngày 1 chương</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>            
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">AQ</div>
+                            <div class="user-name">Nguyễn Anh Quốc</div>
+                            <div class="date">24/9/2024</div>
+                        </div>
+                        <div class="content">Chương ngày càng ngắn thì phải :((</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div> 
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">D</div>
+                            <div class="user-name">Dauludu</div>
+                            <div class="date">23/9/2024</div>
+                        </div>
+                        <div class="content">Báo cập nhật mà ko có chương mới là sao ad</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">PN</div>
+                            <div class="user-name">Hưng Phạm Nhật</div>
+                            <div class="date">21/9/2024</div>
+                        </div>
+                        <div class="content">Chương mới đâu</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">TĐ</div>
+                            <div class="user-name">Nguyễn Tiến Đạt</div>
+                            <div class="date">20/9/2024</div>
+                        </div>
+                        <div class="content">Đọc hết chương khuyến mại và hơn 5000linh thạch mà vào chương đọc rồi không được kkkkk</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">B</div>
+                            <div class="user-name">Bophatdat</div>
+                            <div class="date">15/9/2024</div>
+                        </div>
+                        <div class="content">Má nạp tiền rồi cũng chỉ ngày đọc đc 2 chương. Cấy dái</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment comment-admin">
+                        <div class="user-info">
+                            <div class="avatar admin">L</div>
+                            <div class="user-name">Leminh</div>
+                            <div class="date">17/9/2024</div>
+                        </div>
+                        <div class="content">tác nó ra chương nào làm chương đó mà bác, dịch giả cũng đâu có viết thêm được</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="user-info">
+                            <div class="avatar">D</div>
+                            <div class="user-name">Dauludu</div>
+                            <div class="date">10/9/2024</div>
+                        </div>
+                        <div class="content">Báo cập nhật mà chưa có chương mới ad ơi</div>
+                        <div class="actions">
+                            <p><a class="reply" href="">Trả lời</a>|<a class="like" href=""><i class="fa-regular fa-thumbs-up"></i>Thích</a>.0</p>
+                        </div>
+                    </div>
+                    <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                </div>
+                <script src="JS/slider1.js"></script>
+            </div>
+            
+            <div class="slider4">
+                <div class="fb-comments-section">
+                    <ul>
+                        <li><p style="font-size: 18px; color: #2f52b2;"><i class="fa-solid fa-comment"></i><b> BÌNH LUẬN FACEBOOK </b></p></li>
+                        <hr>
+                    </ul>
+                    <div class="comment-container">
+                        <div class="comment-count">
+                            <strong>0 bình luận</strong>
+                        </div>
+                        <div class="comment-sort">
+                            <span>Sắp xếp theo</span>
+                            <select id="sort-comments" name="sort-comments">
+                                <option value="newest">Mới nhất</option>
+                                <option value="oldest">Cũ nhất</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="comment-box">
+                        <img src="image/user.jfif" alt="User Avatar">
+                        <input type="text" placeholder="Bình luận...">
+                    </div>
+                    <div class="fb-plugin-note">
+                        <a href="#"><i class="fab fa-facebook-square"></i> Plugin bình luận trên Facebook</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="right">           
+            <div class="right3">
+                <div class="top-truyen">
+                  <ul>
+                      <li><a style="font-size: 18px; color: #016eb2 ;" title="TRUYỆN NGÔN TÌNH HAY" href="TruyenXemNhieu.html"><b>TRUYỆN NGÔN TÌNH HAY </b><i class="fa-solid fa-angle-right"></i></a></li>
+                      <li>
+                          <span class="rank">01</span>
+                          <div class="info">
+                          <a title="Bảng Thượng Giai Tế (Dịch Full)" href="#" class="title">Bảng Thượng Giai Tế (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 308,300</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">02</span>
+                          <div class="info">
+                          <a title="Trường Lạc Khúc (Dịch Full)" href="#" class="title">Trường Lạc Khúc (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 1,657,250</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">03</span>
+                          <div class="info">
+                          <a title="Cẩm Nguyệt Như Ca (Dịch Full)" href="#" class="title">Cẩm Nguyệt Như Ca (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 1,741,400</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">04</span>
+                          <div class="info">
+                          <a title="Cô Vợ Ngọt Ngào Có Chút Bất Lương" href="#" class="title">Cô Vợ Ngọt Ngào Có Chút Bất Lương</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 50,633,878</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">05</span>
+                          <div class="info">
+                          <a title="Thú Phi Thiên Hạ: Thần Y Đại Tiểu Thư" href="#" class="title">Thú Phi Thiên Hạ: Thần Y Đại Tiểu Thư</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 15,638,417</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">06</span>
+                          <div class="info">
+                          <a title="Hôn Trộm 55 Lần" href="#" class="title">Hôn Trộm 55 Lần</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 61,816,632</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">07</span>
+                          <div class="info">
+                          <a title="[Chạy Nạn-Làm Giàu] Vương Phi Bị Lưu Đày Sau Khi Mang Thai, Vương Gia Nổi Nóng" href="#" class="title">[Chạy Nạn-Làm Giàu] Vương Phi Bị Lưu Đày Sau Khi Mang Thai, Vương Gia Nổi Nóng</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 133,900</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">08</span>
+                          <div class="info">
+                          <a title="[Thập Niên 70] Cẩm Lý Phú Quý Mệnh" href="#" class="title">[Thập Niên 70] Cẩm Lý Phú Quý Mệnh</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 537,000</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">09</span>
+                          <div class="info">
+                          <a title="Thuần Phục Cô Vợ Bé Nhỏ: Tổng Tài Hư Hư Hư" href="#" class="title">Thuần Phục Cô Vợ Bé Nhỏ: Tổng Tài Hư Hư Hư</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 5,872,931</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">10</span>
+                          <div class="info">
+                          <a title="Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng" href="#" class="title">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 27,923,849</span>
+                          </div>
+                      </li>
+                      <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="right2">
+                <div class="review">
+                    <li><a style="font-size: 18px; color: #016eb2 ;" title="REVIEW TRUYỆN" href="Review.html"><b>REVIEW TRUYỆN </b><i class="fa-solid fa-angle-right"></i></a></li>
+                    <hr>
+                    <li> <img src="image/hinh7.jpg" alt=""><a title="Top truyện xuyên không được đề cử tháng 8-2021" href="">Top truyện xuyên không được đề cử tháng 8-2021</a></li>
+                    <li><img src="image/hinh8.jpg" alt=""><a title="Top truyện xuyên không hay nhất mọi thời đại" href="">Top truyện xuyên không hay nhất mọi thời đại</a></li>
+                    <li><img src="image/hinh9.jpg" alt=""><a title="Top truyện trọng sinh hay nhất nửa đầu năm 2021" href="">Top truyện trọng sinh hay nhất nửa đầu năm 2021</a></li>
+                    <li><img src="image/hinh10.jpg" alt=""><a title="Top truyện tiên hiệp hay nhất dành cho fan nam 2021" href="">Top truyện tiên hiệp hay nhất dành cho fan nam 2021</a></li>
+                    <li><img src="image/hinh11.jpg" alt=""><a title="Top truyện sinh tồn hay nhất mọi thời đại" href="">Top truyện sinh tồn hay nhất mọi thời đại</a></li>
+                    <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                </div>
+            </div>
+            <div class="right4">
+                <div class="top-truyen">
+                    <ul>
+                        <li><a style="font-size: 18px; color: #016eb2 ;" title="TRUYỆN MỚI ĐĂNG" href="TruyenMoiDang.html"><b>TRUYỆN NGÔN TÌNH MỚI </b><i class="fa-solid fa-angle-right"></i></a></li>
+                        <li>
+                            <span class="rank">01</span>
+                            <div class="info">
+                            <a title="Thoát Khỏi Nam Thần, Gả Vào Hào Môn" href="#" class="title">Thoát Khỏi Nam Thần, Gả Vào Hào Môn</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 3,850</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">02</span>
+                            <div class="info">
+                            <a title="Gả Cho Người Goá Vợ" href="#" class="title">Gả Cho Người Goá Vợ</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 1,950</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">03</span>
+                            <div class="info">
+                            <a title="Trưởng Tỷ Như Mẹ" href="#" class="title">Trưởng Tỷ Như Mẹ</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">04</span>
+                            <div class="info">
+                            <a title="Vì Nàng, Ta Không Ngại Luân Hồi" href="#" class="title">Vì Nàng, Ta Không Ngại Luân Hồi</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 100</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">05</span>
+                            <div class="info">
+                            <a title="Thừa Tướng Đại Nhân Rất Sủng Ái Ta" href="#" class="title">Thừa Tướng Đại Nhân Rất Sủng Ái Ta</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 700</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">06</span>
+                            <div class="info">
+                            <a title="Mưa Hè Bất Chợt" href="#" class="title">Mưa Hè Bất Chợt</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 700</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">07</span>
+                            <div class="info">
+                            <a title="Quỷ Nghèo Hai Ngàn Năm" href="#" class="title">Quỷ Nghèo Hai Ngàn Năm</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">08</span>
+                            <div class="info">
+                            <a title="Tôi Không Sắm Vai Nữ Phụ Độc Ác Này Nữa" href="#" class="title">Tôi Không Sắm Vai Nữ Phụ Độc Ác Này Nữa</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 2,050</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">09</span>
+                            <div class="info">
+                            <a title="Tình Cảm Sâu Lắng" href="#" class="title">Tình Cảm Sâu Lắng</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 400</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="rank">10</span>
+                            <div class="info">
+                            <a title="Đợi Gió Đông Thổi Về Phương Bắc" href="#" class="title">Đợi Gió Đông Thổi Về Phương Bắc</a>
+                            <span class="viewed"><i class="fa fa-eye"></i> 0</span>
+                            </div>
+                        </li>
+                        <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right3">
+                <div class="top-truyen">
+                  <ul>
+                      <li><a style="font-size: 18px; color: #016eb2 ;" title="TOP TRUYỆN HAY" href="TruyenFull.html"><b>TRUYỆN NGÔN TÌNH FULL </b><i class="fa-solid fa-angle-right"></i></a></li>
+                      <li>
+                          <span class="rank">01</span>
+                          <div class="info">
+                          <a title="Trò Chơi Bão Táp Trong Phòng Học Nhỏ" href="#" class="title">Trò Chơi Bão Táp Trong Phòng Học Nhỏ</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 886,850</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">02</span>
+                          <div class="info">
+                          <a title="Cổ Đại Sơn Cư, Làm Ruộng Dưỡng Oa Hằng Ngày" href="#" class="title">Cổ Đại Sơn Cư, Làm Ruộng Dưỡng Oa Hằng Ngày</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 336,350</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">03</span>
+                          <div class="info">
+                          <a title="Quan Hệ Nhầm Lẫn" href="#" class="title">Quan Hệ Nhầm Lẫn</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 2,990,500</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">04</span>
+                          <div class="info">
+                          <a title="Bảng Thượng Giai Tế (Dịch Full)" href="#" class="title">Bảng Thượng Giai Tế (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 308,300</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">05</span>
+                          <div class="info">
+                          <a title="Xuyên Sách Gả Cho Nam Phụ Hung Ác" href="#" class="title">Xuyên Sách Gả Cho Nam Phụ Hung Ác</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 25,500</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">06</span>
+                          <div class="info">
+                          <a title="Yêu Đương Với Em Trai Của Bạn Thân" href="#" class="title">Yêu Đương Với Em Trai Của Bạn Thân</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 6,927,200</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">07</span>
+                          <div class="info">
+                          <a title="Trường Lạc Khúc (Dịch Full)" href="#" class="title">Trường Lạc Khúc (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 1,657,250</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">08</span>
+                          <div class="info">
+                          <a title="Mê Vợ Không Lối Về" href="#" class="title">Mê Vợ Không Lối Về</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 19,164,200</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">09</span>
+                          <div class="info">
+                          <a title="Năm Đó Nhà Tôi Có Một Anh Chồng Tháo Hán" href="#" class="title">Năm Đó Nhà Tôi Có Một Anh Chồng Tháo Hán</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 8,200</span>
+                          </div>
+                      </li>
+                      <li>
+                          <span class="rank">10</span>
+                          <div class="info">
+                          <a title="Cẩm Nguyệt Như Ca (Dịch Full)" href="#" class="title">Cẩm Nguyệt Như Ca (Dịch Full)</a>
+                          <span class="viewed"><i class="fa fa-eye"></i> 1,741,400</span>
+                          </div>
+                      </li>
+                      <li><a title="Xem Thêm">Xem Thêm</a><i class="fa-solid fa-angle-down"></i></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="right1">
+                <li><p style="font-size: 18px; color: #2f52b2 ;" href="" title=""><b>THỂ LOẠI TRUYỆN</b></p></li>
+                <hr>
+                <div class="table2-type">
+                    <table class="the-loai">
+                        <tr>
+                            <td><i class="fa-solid fa-gem"></i><li><a title="Tiên Hiệp"  href="TruyenTienHiep.html">Tiên Hiệp</a></li></td>
+                            <td><i class="fa-solid fa-gem"></i><li><a title="Kiếm Hiệp"  href="TruyenKiemHiep.html">Kiếm Hiệp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-gem"></i><li><a class="red2" title="Truyện Teen" href="TruyenTeen.html">Truyện Teen</a></li></td>
+                            <td><i class="fa-solid fa-gem"></i><li><a class="red2" title="Ngôn Tình" href="TruyenNgonTinh.html">Ngôn Tình</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Điền Văn" href="">Điền Văn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Thám Hiểm" href="">Thám Hiểm</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Linh Dị" href="">Linh Dị</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Ngược" href="">Truyện Ngược</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Sủng" href="">Truyện Sủng</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Cung Đấu" href="">Cung Đấu</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Nữ Cường" href="">Nữ Cường</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Gia Đấu" href="">Gia Đấu</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đông Phương" href="">Đông Phương</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Bách Hợp" href="">Bách Hợp</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hài Hước" href="">Hài Hước</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đồng Nhân" href="">Đồng Nhân</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hiện Đại" href="">Hiện Đại</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Sách" href="">Xuyên Sách</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Cổ Đại"  href="">Cổ Đại</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Mạt Thế"  href="">Mạt Thế</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Phương Tây" href="">Phương Tây</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Nữ Phụ" href="">Nữ Phụ</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Light Novel" href="">Light Novel</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Việt Nam" href="">Việt Nam</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đoản Văn" href="">Đoản Văn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Không" href="TruyenXuyenKhong.html">Xuyên Không</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Sắc" href="">Truyện Sắc</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đô Thị" href="TruyenDoThi.html">Đô Thị</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Khác" href="">Truyện Khác</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Lịch Sử" href="TruyenLichSu.html">Lịch Sử</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Khoa Học" href="">Khoa Học</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Quân Sự" href="TruyenQuanSu.html">Quân Sự</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Võng Du" href="">Võng Du</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Dị Giới" href="">Dị Giới</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Huyền Huyễn" href="">Huyền Huyễn</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Khoa Huyễn" href="">Khoa Huyễn</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Trọng Sinh" href="">Trọng Sinh</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="TTruyện Ma" href="">Truyện Ma</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Trinh Thám" href="">Truyện Trinh Thám</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Ngắn" href="TruyenNgan.html">Truyện Ngắn</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Truyện Cười" href="">Truyện Cười</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Tiểu Thuyết" href="">Tiểu Thuyết</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Hệ Thống" href="">Hệ Thống</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Đam Mỹ" href="">Đam Mỹ</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Quan Trường" href="">Quan Trường</a></li></td>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Xuyên Nhanh" href="">Xuyên Nhanh</a></li></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-tags"></i><li><a title="Dị Năng" href="">Dị Năng</a></li></td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <div class="container-footer">
+            <div class="top-footer">
+                <h2>Top truyện nổi bật của tháng</h2>
+                <div class="top-links">
+                    <a title="" href="">diệp lạc vô tâm</a>
+                    <a title="" href="">hào môn kinh mộng</a>
+                    <a title="" href="">đấu la đại lục 2</a>
+                    <a title="" href="">đẹp trai là số 1</a>
+                    <a title="" href="">dam my</a>
+                    <a title="" href="">chồng tổng giám đốc sủng nhẹ một chút</a>
+                    <a title="" href="">đam mỹ hay</a>
+                    <a title="" href="">đep yeu 100</a>
+                    <a title="" href="">Vạn Cổ Thần Đế</a>
+                    <a title="" href="">toàn chức cao thủ</a>
+                </div>
+            </div>
+    
+            <div class="bottom-footer">
+                <div class="info-bottom-footer">
+                    <p>Website <a title="" href="">đọc truyện</a> online chất lượng hàng đầu việt nam, với nhiều 
+                    <a title="" href="">truyện tiên hiệp</a>, 
+                    <a title="" href="">truyện kiếm hiệp</a>,<br>
+                    <br>
+                    <a title="" href="">truyện ngôn tình</a>,
+                    <a title="" href="">truyện teen</a>, <a title="" href="">truyện đô thị</a>
+                    được tác giả và dịch giả chọn lọc và đăng tải. Truy cập<br> website nghĩa là bạn đã đồng ý với các quy định và điều khoản của chúng tôi. Vui lòng đọc kỹ các<br> thông tin liên quan ở phía dưới.</p>
+    
+                    <p class="copyright">Copyright 2021 <a title="" href="">DTruyen.Net</a></p>
+                </div>
+    
+                <div class="footer-links">
+                    <a title="" href="chinh-sach-bao-mat.html">Chính sách bảo mật</a> - 
+                    <a title="" href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a> - 
+                    <a title="" href="quy-dinh-ve-noi-dung.html">Quy định về nội dung</a> - 
+                    <a title="" href="van-de-ban-quyen.html">Vấn đề bản quyền</a> - 
+                    <a title="" href="thoa-thuan-quyen-rieng-tu.html">Thỏa<br> thuận quyền riêng tư</a>
+                </div>
+              
+                <p class="license">Website hoạt động dưới <a  href="GPTC.html">Giấy phép truy cập mở Creative Commons Attribution 4.0 International</a></p>
+                <p class="license"> <a href="GPTC.html">License.</a>.
+                
+                <div class="dmca">
+                    <a href="//www.dmca.com/Protection/Status.aspx?id=9e37f4ab-db0f-4a15-a997-52948db76716" title="DMCA.com Protection Status" class="dmca-badge">
+                        <img src="//images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=//www.dmca.com/Protection/Status.aspx?id=9e37f4ab-db0f-4a15-a997-52948db76716" alt="DMCA.com Protection Status">
+                    </a>
+                    <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                    <a href="https://creativecommons.org/licenses/by/4.0/" title="Second Logo">
+                        <img src="https://licensebuttons.net/l/by/3.0/80x15.png" alt="Second Logo" class="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>

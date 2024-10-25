@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="CSS/Dang-nhap.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="icon">
+                <img src="image/Loin.png" alt="User Icon">
+            </div>
+            <p>Đăng Nhập vào tài khoản của bạn</p>
+            <div class="warning-box">
+                <p>Webtruyen.com đổi sang</p>
+                <p>Dtruyen.com, các tài khoản và thông tin vẫn dùng thông tin cũ để đăng nhập</p>
+            </div>
+            <form id="loginForm">
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id="name-Mail" placeholder="Username hoặc Email">
+                </div>
+                <div class="input-container">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" id="Password" placeholder="Password">
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember</label>
+                </div>
+                <button type="submit" class="login-btn">Đăng Nhập</button>
+                <p style="font-size:15px; color:#a6a6a6; padding: 5px;">Hoặc</p>
+                <div class="social-login">
+                    <button class="facebook-btn"> <i class="fa-brands fa-facebook-f"></i> Facebook</button>
+                    <button class="google-btn"><i class="fa-brands fa-google"></i> Google</button>
+                </div>
+            </form>
+            <div class="login">
+                <p>Chưa có tài khoản vui lòng<a href="#"> đăng ký tại đây</a></p>
+            </div>
+            <div class="info-box">
+                <p>-Bạn được phép đăng tải các tác phẩm của bạn lên Web Truyện.</p>
+                <p>-Bạn được phép nhận ủng hộ linh thạch từ bạn đọc.</p>
+                <p>-Khi lượt đọc và tác phẩm đủ lớn được phép bật tính năng ủng hộ linh thạch bắt buộc.</p>
+                <p>-Được phép đổi linh thạch.</p>
+                <p>Nếu bạn là Tác Giả, Dịch Giả, Converter của bất kỳ tác phẩm nào đang đăng tải trên Web Truyện, bạn cũng có thể liên hệ qua email <a href="mailto:contact@dtruyen.com">contact@dtruyen.com</a> để nhận lại tác phẩm (Vui lòng cung cấp bằng chứng khi gửi mail)</p>
+            </div>
+        </div>
+    </div>
+    <script src="JS/DangNhap.js"></script>
+</body>
+</html>
