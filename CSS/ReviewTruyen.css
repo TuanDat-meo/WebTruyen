@@ -116,6 +116,166 @@ header ul li:nth-child(7):hover a {
 header ul li:hover a {
     text-decoration: underline;
 }
+/*-------Thành viên------*/
+
+.login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1000;
+    padding-top: 50px;
+}
+.login-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    width: 400px;
+    max-height: 550px;
+}
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #e5e5e5;
+}
+.login-header h2 {
+    font-size: 24px;
+    color: #333; 
+}
+.close-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: #333; 
+}
+.input-container {
+    margin-bottom: 15px; 
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.remember-me {
+    margin-bottom: 10px; 
+}
+.remember-me label {
+    font-size: 14px;
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-btn a{
+    color: #fff;
+}
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px; 
+    color: #3d90c4; 
+    text-align:left; 
+    text-decoration: none; 
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.forgot-password:hover {
+    text-decoration: underline; 
+}
+.social-login {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width:100%;
+}
+.social-login button a {
+    font-size: 12px;
+    color: #ffffff;
+}
+.social-login button a:nth-child(2) {
+    color: #111;
+}
+.facebook-btn {
+    background-color: #3f51b5; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.google-btn {
+    background-color: #ffffff; 
+    color: #4285f4;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    border-radius: 5px; 
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 15px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center; 
+}
+.google-btn a:hover{
+    text-decoration: underline;
+}
+.zalo-btn {
+    background-color: #216b9c;
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+}
+.facebook-btn:hover,
+.zalo-btn:hover {
+    text-decoration: underline;
+}
+.social-login i {
+    margin-right: 8px; 
+    font-size: 16px; 
+}
+.info-box {
+    background-color: #fde1df; 
+    color: #7f231c; 
+    border: 1px solid #f55246;
+    border-radius: 4px; 
+    padding: 10px;
+    margin-top: 15px; 
+    font-size: 14px; 
+}
+.login {
+    margin-top: 15px; 
+    text-align: center;
+}
+.login a {
+    color: #2196f3;
+    text-decoration: none;
+}
+.login a:hover {
+    text-decoration: underline;
+}
 /* ----------------section-left-1 */
 .container {
     width: 62%; 

@@ -282,14 +282,14 @@ header ul li:hover a {
     display: table;
 }
 .content{
-    max-width: 1050px;
+    max-width: 1020px;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
 }
 #full-slider {
     max-width:710px; 
-    margin: 20px auto ; 
+    margin: 15px auto ; 
     padding: 5px;
     
 }
@@ -421,7 +421,7 @@ header ul li:hover a {
 /*------------------------------------*/
 #right {
     width: 320px;
-    margin: 25px 15px;
+    margin: 25px 0;
     
 }
 .right1 {

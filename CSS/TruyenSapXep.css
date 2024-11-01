@@ -281,14 +281,14 @@ header ul li:hover a {
     display: table;
 }
 .content{
-    max-width: 1150px;
+    max-width: 1030px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 
 #full-slider {
-    max-width:1000px; 
+    max-width:800px; 
     margin-top:5px;
     padding: 5px;
     
